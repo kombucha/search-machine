@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gravity Falls</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body style="visibility: hidden">
+    <input id="search" class="search-input" type="search" placeholder="Start searching…" aria-label="Movie search input" autocomplete="off" autofocus>
+
+    <div id="results-container">
+      <div class="spotlight"></div>
+      <canvas id="debugger-canvas" style="display: none;"></canvas>
+      <div id="details-popover" class="popover"></div>
+    </div>
+
+    <input id="debugger-toggle" aria-label="Enable physics debugger" type="checkbox">
+  
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
