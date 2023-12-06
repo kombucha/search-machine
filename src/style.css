@@ -73,7 +73,7 @@ body {
     content: " ";
     pointer-events: none;
     z-index: var(--z-index-results-overlay);
-    background-image: linear-gradient(to bottom, #111432, transparent 30%);
+    background-image: linear-gradient(to bottom, #111432, transparent 200px);
   }
 }
 
